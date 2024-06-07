@@ -1,0 +1,49 @@
+[
+    {
+        "title": "Premier pas dans le HTML",
+        "image": "images/Projet-1.png",
+        "url": "https://github.com/MathScic/P2---Projet-2-",
+        "technologies": ["HTML/CSS"],
+        "description": "Premier projet fait uniquement avec du HTML"
+    },
+
+    {
+        "title": "Création page accueil agence de voyage",
+        "image": "images/Projet-2.png",
+        "url": "https://github.com/MathScic/P3--Booki-",
+        "technologies": ["HTML/CSS"],
+        "description": "Dans ce projet nous avons appris a utiliser le HTML ainsi que CSS pour ce qui est d'appliquer les couleur ou arrondir les angles etc..."
+    },
+
+    {
+        "title": "Oh My Food",
+        "image": "images/Projet-3.png",
+        "url": "https://github.com/MathScic/P4_Scicluna_Mathieu_24_04_23",
+        "technologies": ["HTML/CSS"],
+        "description": "A l'issue de ce projet on a appris a gérer les animations en CSS ainsi que les liens pour naviguer de pages en pages"
+    },
+
+    {
+        "title": "Premier pas sur JS",
+        "image": "images/Projet-4.png",
+        "url": "https://github.com/MathScic/P-5-Print-JS-/tree/main/assets",
+        "technologies": ["JavaScript"],
+        "description": "Ceci était notre premier projet sur JavaScript, on ce devait de mettre en place le slider du site Prin It"
+    },
+
+    {
+        "title": "Kasa",
+        "image": "images/Projet-8.png",
+        "url": "https://github.com/MathScic/P8-Kasa",
+        "technologies": ["React"],
+        "description": "Le projet 8 avait pour but de nous apprendre a utiliser correctement React pour créer le site vitrine de l'agence de location Kasa"
+    },
+
+    {
+        "title": "724Event ",
+        "image": "images/Projet-10.png",
+        "url": "https://github.com/MathScic/P10-END",
+        "technologies": ["React"],
+        "description": "Ce projet avait pour but de nous apprendre a gérer les bug sur un site déja existant et coder, et de nous apprendre a créer un cahier des recettes "
+    }
+]
