@@ -149,6 +149,14 @@ h2:hover::after {
   background-color: #ffffff;
 }
 
+#modal-image {
+  padding-bottom: 1rem;
+}
+
+#modal-description {
+  padding-bottom: 1rem;
+}
+
 /* Réalisation */
 #realisation {
   background-color: #f2f2f2;
