@@ -265,28 +265,20 @@ h2:hover::after {
   text-align: center;
   margin: auto;
   margin-bottom: 2rem;
-}
-
-.competence-picture {
-  max-width: 30%;
-  height: 66.8vh;
-  display: flex;
-  position: absolute;
-  margin-bottom: 2rem;
+  max-width: 100%;
 }
 
 #competences h2 {
   margin-top: 3rem;
   margin-bottom: 1.5rem;
-  margin-left: 25%;
   text-align: center;
 }
 
 .competence {
   margin-bottom: 15px;
-  margin-left: 35%;
-  max-width: 60%;
+  max-width: 80%;
   padding-bottom: 1.5rem;
+  margin: auto;
 }
 
 #node-progress {
@@ -470,6 +462,14 @@ button[type="submit"]:hover {
   .popup {
     width: 90%;
   }
+
+  .competences {
+
+  }
+
+  .competence-picture {
+    display: none;
+  }
 }
 
 @media (max-width: 480px) {
@@ -527,5 +527,9 @@ button[type="submit"]:hover {
 
   button[type="submit"] {
     width: 200px;
+  }
+
+  .competence-picture {
+    display: none;
   }
 }
