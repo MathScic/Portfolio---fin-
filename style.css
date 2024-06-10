@@ -435,6 +435,10 @@ button[type="submit"]:hover {
 }
 
 @media (max-width: 768px) {
+  #menu h1 {
+    display: none;
+  }
+
   .container {
     width: 90%;
   }
@@ -473,6 +477,10 @@ button[type="submit"]:hover {
 }
 
 @media (max-width: 480px) {
+
+  #menu h1 {
+    display: none;
+  }
 
   header,
   footer {
