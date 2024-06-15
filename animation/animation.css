@@ -1,0 +1,27 @@
+/* Accueil */
+#accueil {
+    background: url('../images/slider.jpg');
+    height: 60vh;
+    background-position: center;
+  }
+
+  .container-animation {
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  #accueil .name {
+    margin-top: 10%;
+    padding-bottom: 2rem;
+  }
+  
+  .name {
+    font-size: 3rem;
+    color: #EEFF5C;
+  }
+  
+  .work {
+    font-size: 1.5rem;
+    color: #EEFF5C;
+  }
