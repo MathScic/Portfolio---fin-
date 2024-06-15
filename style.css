@@ -133,140 +133,27 @@ h2:hover::after {
   background-color: #555;
 }
 
-
-
 /* Présentation */
 #presentation {
-  background-color: #ffffff;
-}
-
-#modal-image {
-  padding-bottom: 1rem;
-}
-
-#modal-description {
-  padding-bottom: 1rem;
-}
-
-/* Réalisation */
-#realisation {
   background-color: #f2f2f2;
-  border-radius: 10px;
-  padding-bottom: 4rem;
 }
 
-#realisation h2 {
-  margin-bottom: 1rem;
+#presentation a {
+  font-size: 25px;
+  font-weight: 500;
 }
 
-#filters {
-  margin-bottom: 20px;
+.pres-size {
+  font-size: 25px;
+  padding-bottom: 1.5rem;
 }
 
-.filter-btn {
-  padding: 8px 16px;
-  margin: 0 8px;
-  border: none;
-  border-radius: 4px;
-  background-color: #333;
-  color: #fff;
-  cursor: pointer;
-}
 
-#projects {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  margin: auto;
-  gap: 2rem;
-  border-radius: 10px;
-  background-color: #f2f2f2;
-  max-width: 80%;
-}
-
-.project-card {
-  width: 450px;
-  height: 300px; 
-  margin-bottom: 20px;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  overflow: hidden;
-  transition: transform 0.3s;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between; 
-}
-
-.project-card:hover {
-  transform: scale(1.05);
-}
-
-.project-card img {
-  width: 100%;
-  height: 200px; 
-  object-fit: cover; 
-}
-
-.project-details {
-  padding: 16px;
-  flex-grow: 1; 
-}
-
-.project-title {
-  font-size: 1.2rem;
-  font-weight: bold;
-  padding-bottom: 1rem;
-}
-
-/* Style pour la modal */
-.modal {
-  display: none;
-  position: fixed;
-  z-index: 1000;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  overflow: auto;
-}
-
-.modal-content {
-  background-color: #fefefe;
-  margin: 15% auto;
-  padding: 20px;
-  border: 1px solid #888;
-  width: 80%;
-  max-width: 600px;
-  text-align: center;
-}
-
-#modal-image {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-}
-
-.close {
-  color: #aaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-.close:hover,
-.close:focus {
-  color: black;
-  text-decoration: none;
-  cursor: pointer;
-}
 
 /* Compétence */
 
 #competences {
-  background-color: #ffffff;
+  background-color: #f2f2f2;
   margin-top: 20px;
   text-align: center;
   margin: auto;
@@ -337,7 +224,7 @@ h2:hover::after {
 
 /* Contact */
 #contact {
-  background-color: #f2f2f2;
+  background-color: #fff;
   margin: 50px 0 0 0;
   padding: 20px;
   border-radius: 10px;

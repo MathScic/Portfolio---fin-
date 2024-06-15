@@ -1,7 +1,7 @@
 /* Accueil */
 #accueil {
     background: url('../images/slider.jpg');
-    height: 60vh;
+    height: 80vh;
     background-position: center;
   }
 
@@ -25,3 +25,25 @@
     font-size: 1.5rem;
     color: #EEFF5C;
   }
+
+  /* Animation de fade-in */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  opacity: 0; /* Masquer par défaut */
+  transition: opacity 1s, transform 1s;
+}
+
+.fade-in.visible {
+  opacity: 1;
+  animation: fadeIn 1s forwards;
+}

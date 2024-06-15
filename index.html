@@ -7,9 +7,10 @@
     <script src="https://kit.fontawesome.com/76e9b7325c.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="./animation/animation.css">
+    <link rel="stylesheet" href="./Realisation/realisation.css">
   </head>
   <body>
-    <header></header>
+    <header class="fade-in"></header>
 
     <nav id="menu">
       <ul class=>
@@ -22,17 +23,17 @@
       </ul>
     </nav>
 
-    <section id="accueil">
+    <section id="accueil" class="fade-in">
       <div class="container-animation">
         <h1 class="name">Bonjour,<p class="name"></p></h1>
         <p class="work"></p>
       </div>
     </section>
 
-    <section id="presentation">
+    <section id="presentation" class="fade-in">
       <div class="container">
         <h2>Présentation</h2>
-        <p>
+        <p class="pres-size">
           Développeur récemment diplômé et passionné du web. <br />Je conçois et
           réalise des sites web, <br />J'ai appris et continue de parfaire la
           connaissance de certains framework comme React principalement
@@ -43,7 +44,7 @@
       </div>
     </section>
 
-    <section id="realisation">
+    <section id="realisation" class="fade-in">
       <div class="container">
         <h2>Réalisations</h2>
       </div>
@@ -51,7 +52,7 @@
         <div class="modal-content">
           <span class="close">&times;</span>
           <img id="modal-image" src="" alt="" />
-          <h2 id="modal-title"></h2>
+          <h3 id="modal-title"></h3>
           <p id="modal-description"></p>
           <p id="modal-technologies"></p>
         </div>
@@ -60,7 +61,7 @@
       <div id="projects"></div>
     </section>
 
-    <section id="competences">
+    <section id="competences" class="fade-in">
       <h2>Compétences</h2>
       <div class="competence">
         <span class="technologie">HTML <i class="fa-brands fa-html5"></i></span>
@@ -94,7 +95,7 @@
       </div>
     </section>
 
-    <section id="contact">
+    <section id="contact" class="fade-in">
       <h2>Contactez-nous</h2>
       <form id="contact-form">
         <div class="form-group">
@@ -124,7 +125,7 @@
       </div>
     </div>
 
-    <footer class="footer">
+    <footer class="footer fade-in">
       <div class="footer-link">
         <a href="mailto:mthscicluna@gmail.com"><i class="fa-solid fa-envelope"></i></a>
         <a href="https://www.linkedin.com/in/mathieu-scicluna-8346482ba/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
@@ -141,6 +142,22 @@
         })();
       </script>
       <script src="./Contact/contactForm.js"></script>
+      
+      <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const observer = new IntersectionObserver(entries => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                    }
+                });
+            });
+
+            document.querySelectorAll('.fade-in').forEach(element => {
+                observer.observe(element);
+            });
+        });
+    </script>
     </footer>
   </body>
 </html>
