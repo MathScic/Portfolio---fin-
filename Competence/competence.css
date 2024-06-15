@@ -64,3 +64,15 @@
 .slide h3 {
   margin: 10px 0;
 }
+
+@media (max-width: 768px) { 
+  #competences {
+    height: 45vh
+  }
+}
+
+@media (max-width: 480px) { 
+  #competences {
+    height: 50vh
+  }
+}

@@ -189,6 +189,10 @@ h2:hover::after {
   .competence-picture {
     display: none;
   }
+
+  #competences {
+    height: 50vh
+  }
 }
 
 @media (max-width: 480px) {
