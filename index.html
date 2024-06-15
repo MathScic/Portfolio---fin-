@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="./animation/animation.css">
     <link rel="stylesheet" href="./Realisation/realisation.css">
+    <link rel="stylesheet" href="./Competence/competence.css">
+    <link rel="stylesheet" href="./Contact/contact.css">
   </head>
   <body>
     <header class="fade-in"></header>
@@ -63,35 +65,36 @@
 
     <section id="competences" class="fade-in">
       <h2>Compétences</h2>
-      <div class="competence">
-        <span class="technologie">HTML <i class="fa-brands fa-html5"></i></span>
-        <div class="progress-bar">
-          <div class="progress" id="html-progress"></div>
+      <div class="slider">
+        <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+        <div class="slide-container">
+          <div class="slide" id="html-slide">
+            <i class="fa-brands fa-html5"></i>
+            <h3>HTML</h3>
+            <p>Nous avons appris à utilisé HTML pour structurer les contenus <br>web de manière sémantique et accessible. <br>Avec l'utilisation des balises </p>
+          </div>
+          <div class="slide" id="css-slide">
+            <i class="fa-brands fa-css3-alt"></i>
+            <h3>CSS</h3>
+            <p>Nous avons appris à stylisé des interfaces utilisateurs <br>modernes et réactives en utilisant CSS, <br>comme les animations, le responsiv ...</p>
+          </div>
+          <div class="slide" id="js-slide">
+            <i class="fa-brands fa-js"></i>
+            <h3>JavaScript</h3>
+            <p>On a appris à développé des fonctionnalités interactives et dynamiques <br> avec JavaScript, pour rendre nos interfaces plus dynamiques et agréables.</p>
+          </div>
+          <div class="slide" id="react-slide">
+            <i class="fa-brands fa-react"></i>
+            <h3>React</h3>
+            <p>On a appris à construire des applications web performantes et maintenables <br>avec  le framework React, gestion des composants, utilisation de redux, etc...</p>
+          </div>
+          <div class="slide" id="node-slide">
+            <i class="fa-brands fa-node"></i>
+            <h3>Node</h3>
+            <p>On m'a appris à gérer des serveurs robustes et scalables avec Node.js. <br>Ainsi que l'utilisation des lignes de commande et la mise en relation avec MongoDB </p>
+          </div>
         </div>
-      </div>
-      <div class="competence">
-        <span class="technologie">CSS <i class="fa-brands fa-css3-alt"></i></span>
-        <div class="progress-bar">
-          <div class="progress" id="css-progress"></div>
-        </div>
-      </div>
-      <div class="competence">
-        <span class="technologie">JavaScript <i class="fa-brands fa-js"></i></span>
-        <div class="progress-bar">
-          <div class="progress" id="js-progress"></div>
-        </div>
-      </div>
-      <div class="competence">
-        <span class="technologie">React <i class="fa-brands fa-react"></i></span>
-        <div class="progress-bar">
-          <div class="progress" id="react-progress"></div>
-        </div>
-      </div>
-      <div class="competence">
-        <span class="technologie">Node <i class="fa-brands fa-node"></i></span>
-        <div class="progress-bar">
-          <div class="progress" id="node-progress"></div>
-        </div>
+        <button class="next" onclick="moveSlide(1)">&#10095;</button>
       </div>
     </section>
 
@@ -141,6 +144,7 @@
           emailjs.init("208rQ8DCIbG-ekfeO");
         })();
       </script>
+      <script src="./Competence/competence.js"></script>
       <script src="./Contact/contactForm.js"></script>
       
       <script>
